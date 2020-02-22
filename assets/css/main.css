@@ -1515,11 +1515,11 @@ input, select, textarea {
 
 .nav {
     width: 100%;
-    height: 65px;
     position: fixed;
     line-height: 65px;
 	text-align: center;
 	z-index: 999;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .nav div.logo {
@@ -2555,13 +2555,14 @@ input, select, textarea {
 	#header {
 		position: relative;
 		margin: 0;
-		background-image: url("images/overlay.png"), url("https://picsum.photos/1000/800");
+		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.65)),url("https://picsum.photos/1000/800");
 		background-size: auto, cover;
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		padding: 14em 0 14em 0;
 		text-align: center;
 		color: #fff;
+		min-height: 100vh;
 	}
 
 		#header header h1 {
