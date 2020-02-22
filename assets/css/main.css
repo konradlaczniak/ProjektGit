@@ -2496,4 +2496,24 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
+				
 	}
+
+
+/* SECTION 3 */
+
+#section_3{
+	background-image: url("../../images/section2/road-in-between-grass-field-under-grey-sky-1118872.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#section_3 h3{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* SECTION 4 */
+#second h2{
+	font-weight: bold;
+}
