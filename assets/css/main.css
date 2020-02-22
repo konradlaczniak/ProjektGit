@@ -2527,6 +2527,27 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			transition: color 0.5s ease;
+		}
+
+		.fa-twitter:hover {
+			color: rgb(16, 187, 199);
+		}
+
+		.fa-facebook-f:hover {
+			color: rgb(16, 61, 209);
+		}
+
+		.fa-instagram:hover {
+			color: rgb(217, 109, 221);
+		}
+
+		.fa-dribbble:hover {
+			color: rgb(219, 68, 41);
+		}
+
+		.fa-github:hover {
+			color: rgb(66, 59, 57);
 		}
 
 /* Header */
@@ -2638,7 +2659,7 @@ input, select, textarea {
 			}
 
 		#footer ul.icons a {
-			box-shadow: inset 0 0 0 1px #d6d6d6;
+			box-shadow: inset 0 0 0 1px #9e9b9bcc;
 		}
 
 /* Wide */
@@ -2849,3 +2870,16 @@ input, select, textarea {
 				}
 
 	}
+
+	body::-webkit-scrollbar {
+		width: 0.8em;
+	  }
+	   
+	  body::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	  }
+	   
+	  body::-webkit-scrollbar-thumb {
+		background-color: darkgrey;
+		outline: 1px solid slategrey;
+	  }
