@@ -12,15 +12,37 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
+		<!-- Nav -->
+		<nav class="nav">
+			<div class="container">
+				<div class="logo">
+					<a href="#">Tessellate</a>
+				</div>
+				<div id="mainListDiv" class="main_list">
+					<ul class="navlinks">
+						<li><a class="scrolly" href="#second">second</a></li>
+						<li><a class="scrolly" href="#third">third</a></li>
+						<li><a class="scrolly" href="#fourth">fourth</a></li>
+						<li><a class="scrolly" href="#footer">footer</a></li>
+					</ul>
+				</div>
+				<span class="navTrigger">
+					<i></i>
+					<i></i>
+					<i></i>
+				</span>
+			</div>
+		</nav>
+
 
 		<!-- Header -->
 			<section id="header" class="dark">
 				<header>
-					<h1>Welcome to Tessellate</h1>
-					<p>A free responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+					<h1>Nie śpię,</h1>
+					<p>bo kodzę</p>
 				</header>
 				<footer>
-					<a href="#first" class="button scrolly">Proceed to second phase</a>
+					<a href="#first" class="button scrolly">Zobacz Więcej</a>
 				</footer>
 			</section>
 
@@ -399,5 +421,15 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+				$(window).scroll(function() {
+					if ($(document).scrollTop() > 50) {
+						$('.nav').addClass('affix');
+						console.log("OK");
+					} else {
+						$('.nav').removeClass('affix');
+					}
+				});
+			</script>
 	</body>
 </html>
