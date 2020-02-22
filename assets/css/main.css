@@ -2869,6 +2869,21 @@ input, select, textarea {
 					font-size: 1.25em;
 				}
 
+	}
+
+.find-out-more {
+	font-weight: lighter;
+}
+
+.find-out-more:hover {
+	height: 110%;
+	transition-property: height;
+	font-weight: bold;
+}
+
+.diet-img {
+	height: 100%;
+}
 				
 	}
 
